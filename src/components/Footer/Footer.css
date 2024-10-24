@@ -1,0 +1,48 @@
+.section {
+  display: flex;
+
+  background-color: rgba(211, 207, 207, 0.855);
+
+  .searche {
+    justify-content: center;
+    align-items: center;
+    @media (width: 650px) {
+      flex-wrap: wrap;
+    }
+    .forma input {
+      margin-bottom: 15px;
+      padding-left: 15px;
+      h1 {
+        text-align: center;
+      }
+    }
+
+    input {
+      height: 40px;
+      width: 75%;
+    }
+  }
+  button {
+    background-color: gold;
+
+text-align: center;
+    width: 480px;
+    height: 40px;
+    border-radius: 15px;
+    @media (width: 700px) {
+      flex-wrap: wrap;
+    }
+    &:hover {
+      background-color: rgb(186, 166, 58);
+    }
+  }
+}
+.footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   width: 100%;
+   background-color: rgb(49, 49, 143);
+   height: 140px;
+}
